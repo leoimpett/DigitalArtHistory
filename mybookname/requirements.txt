@@ -11,5 +11,5 @@ jupyter-book
 #From here are Leo's additions
 sklearn
 scikit-image
+skimage
 tqdm
-glob
