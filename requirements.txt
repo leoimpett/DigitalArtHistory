@@ -1,2 +1,6 @@
 matplotlib
 sklearn
+numpy
+scikit-image
+tqdm
+glob
