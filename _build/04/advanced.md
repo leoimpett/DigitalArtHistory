@@ -4,7 +4,7 @@ prev_page:
   url: /03/humans
   title: 'Detecting human figures'
 next_page:
-  url: /04/1/nns
+  url: /04/nns
   title: 'Neural Networks'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

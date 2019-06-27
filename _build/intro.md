@@ -4,18 +4,13 @@ prev_page:
   url: 
   title: ''
 next_page:
-  url: /guide/01_overview
+  url: /00/author
   title: 'About the Author'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 # Digital Art History
 
 Leonardo Impett, surname (at) biblhertz.it
-
-Image and Visual Representation Lab, EPFL
-
-Digital Humanities Lab, Bibliotheca Hertziana - Max Planck Institute for Art History
-
 
 
 This is an online, interactive, code- and data-enhanced textbook for Digital Art History, focusing especially on images: computer vision, image processing and visual computing. It is based on the JupyterBook software. 
@@ -55,42 +50,3 @@ Here's a quick overview of the planned contents:
    3. Pixelwise segmentation maps
    4. GANs
 
-### Installation
-
-To install the Jupyter Book command-line interface (CLI), use `pip`!
-
-```
-pip install jupyter-book
-```
-
-### Create a new book
-
-Once you've installed the CLI, create a new book using the demo book content
-(the website that you're viewing now) with this command:
-
-```
-jupyter-book create mybookname --demo
-```
-
-### Build the markdown for your book
-
-Now, build the markdown that Jekyll will use for your book. Run this command:
-
-```
-jupyter-book build mybookname
-```
-
-### That's it!
-
-You can now either push your book to GitHub and serve the demo with gh-pages,
-or modify the book with your own content.
-
-
-## Acknowledgements
-
-Jupyter Books was originally created by [Sam Lau][sam] and [Chris Holdgraf][chris]
-with support of the **UC Berkeley Data Science Education Program and the
-[Berkeley Institute for Data Science](https://bids.berkeley.edu/)**.
-
-[sam]: http://www.samlau.me/
-[chris]: https://predictablynoisy.com

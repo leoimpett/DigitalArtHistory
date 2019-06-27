@@ -4,7 +4,7 @@ prev_page:
   url: /00/author
   title: 'About the Author'
 next_page:
-  url: https://github.com/leoimnpett/DigitalArtHistory
+  url: https://github.com/leoimpett/DigitalArtHistory
   title: 'GitHub repository'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---

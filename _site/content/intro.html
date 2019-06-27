@@ -10,10 +10,10 @@
   <title>Digital Art History</title>
   <meta name="description" content="This is an example book built with Jupyter Books.">
 
-  <link rel="canonical" href="http://0.0.0.0:4000/jupyter-book/content/intro.html">
-  <link rel="alternate" type="application/rss+xml" title="Jupyter Book" href="http://0.0.0.0:4000/jupyter-book/feed.xml">
+  <link rel="canonical" href="http://0.0.0.0:8002/jupyter-book/content/intro.html">
+  <link rel="alternate" type="application/rss+xml" title="Jupyter Book" href="http://0.0.0.0:8002/jupyter-book/feed.xml">
 
-  <meta property="og:url"         content="http://0.0.0.0:4000/jupyter-book/content/intro.html" />
+  <meta property="og:url"         content="http://0.0.0.0:8002/jupyter-book/content/intro.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Digital Art History" />
 <meta property="og:description" content="This is an example book built with Jupyter Books." />
@@ -25,13 +25,13 @@
   "@context": "http://schema.org",
   "@type": "NewsArticle",
   "mainEntityOfPage":
-    "http://0.0.0.0:4000/jupyter-book/content/intro.html",
+    "http://0.0.0.0:8002/jupyter-book/content/intro.html",
   "headline":
     "Digital Art History",
   "datePublished":
-    "2019-06-27T06:54:33-05:00",
+    "2019-06-27T08:04:06-05:00",
   "dateModified":
-    "2019-06-27T06:54:33-05:00",
+    "2019-06-27T08:04:06-05:00",
   "description":
     "This is an example book built with Jupyter Books.",
   "author": {
@@ -43,14 +43,14 @@
     "name": "Data 100 at UC Berkeley",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://0.0.0.0:4000/jupyter-book",
+      "url": "http://0.0.0.0:8002/jupyter-book",
       "width": 60,
       "height": 60
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "http://0.0.0.0:4000/jupyter-book",
+    "url": "http://0.0.0.0:8002/jupyter-book",
     "height": 60,
     "width": 60
   }
@@ -515,7 +515,7 @@ function addParamToInternalLinks(hub) {
   var links = document.querySelectorAll("a").forEach(function(link) {
     var href = link.href;
     // If the link is an internal link...
-    if (href.search("http://0.0.0.0:4000") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
+    if (href.search("http://0.0.0.0:8002") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
       // Assume we're an internal link, add the hub param to it
       var params = getJsonFromUrl(href);
       if (params !== false) {
@@ -694,7 +694,7 @@ initFunction(initQuery);
 
 
 <nav id="js-sidebar" class="c-textbook__sidebar">
-  <a href="/intro.html"><img src="/jupyter-book/images/logo/cvah_logo.png" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
+  <a href="/intro.html"><img src="/jupyter-book/images/logo/cvah_logo.jpg" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
   <h2 class="c-sidebar__title">Jupyter Book</h2>
   <ul class="c-sidebar__chapters">
     
@@ -757,7 +757,7 @@ initFunction(initQuery);
           href="/jupyter-book/00/howto.html"
         >
           
-          Features and customization
+          How-to guide
         </a>
 
         
@@ -1276,10 +1276,6 @@ initFunction(initQuery);
 
 <p>Leonardo Impett, surname (at) biblhertz.it</p>
 
-<p>Image and Visual Representation Lab, EPFL</p>
-
-<p>Digital Humanities Lab, Bibliotheca Hertziana - Max Planck Institute for Art History</p>
-
 <p>This is an online, interactive, code- and data-enhanced textbook for Digital Art History, focusing especially on images: computer vision, image processing and visual computing. It is based on the JupyterBook software.</p>
 
 <p>There are a few reasons to use such a JupyterBook,  but the greatest is the ability to have inline executible Python code alongside text. There aren’t many user-friendly applications for computer vision, so we have to engage directly with code - JupyterBook provides a good in-between-state, where you can run existing code, and add, remove, or change code at your will, all in a web browser.</p>
@@ -1339,39 +1335,6 @@ initFunction(initQuery);
     </ol>
   </li>
 </ol>
-
-<h3 id="installation">Installation</h3>
-
-<p>To install the Jupyter Book command-line interface (CLI), use <code class="highlighter-rouge">pip</code>!</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install jupyter-book
-</code></pre></div></div>
-
-<h3 id="create-a-new-book">Create a new book</h3>
-
-<p>Once you’ve installed the CLI, create a new book using the demo book content
-(the website that you’re viewing now) with this command:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter-book create mybookname --demo
-</code></pre></div></div>
-
-<h3 id="build-the-markdown-for-your-book">Build the markdown for your book</h3>
-
-<p>Now, build the markdown that Jekyll will use for your book. Run this command:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter-book build mybookname
-</code></pre></div></div>
-
-<h3 id="thats-it">That’s it!</h3>
-
-<p>You can now either push your book to GitHub and serve the demo with gh-pages,
-or modify the book with your own content.</p>
-
-<h2 id="acknowledgements">Acknowledgements</h2>
-
-<p>Jupyter Books was originally created by <a href="http://www.samlau.me/">Sam Lau</a> and <a href="https://predictablynoisy.com">Chris Holdgraf</a>
-with support of the <strong>UC Berkeley Data Science Education Program and the
-<a href="https://bids.berkeley.edu/">Berkeley Institute for Data Science</a></strong>.</p>
 
 
               <nav class="c-page__nav">

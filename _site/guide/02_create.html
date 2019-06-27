@@ -10,10 +10,10 @@
   <title>Create your book</title>
   <meta name="description" content="Create your Jupyter Book">
 
-  <link rel="canonical" href="http://0.0.0.0:4000/jupyter-book/guide/02_create.html">
-  <link rel="alternate" type="application/rss+xml" title="Jupyter Book" href="http://0.0.0.0:4000/jupyter-book/feed.xml">
+  <link rel="canonical" href="http://0.0.0.0:8002/jupyter-book/guide/02_create.html">
+  <link rel="alternate" type="application/rss+xml" title="Jupyter Book" href="http://0.0.0.0:8002/jupyter-book/feed.xml">
 
-  <meta property="og:url"         content="http://0.0.0.0:4000/jupyter-book/guide/02_create.html" />
+  <meta property="og:url"         content="http://0.0.0.0:8002/jupyter-book/guide/02_create.html" />
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="Create your book" />
 <meta property="og:description" content="Create your Jupyter Book" />
@@ -25,13 +25,13 @@
   "@context": "http://schema.org",
   "@type": "NewsArticle",
   "mainEntityOfPage":
-    "http://0.0.0.0:4000/jupyter-book/guide/02_create.html",
+    "http://0.0.0.0:8002/jupyter-book/guide/02_create.html",
   "headline":
     "Create your book",
   "datePublished":
-    "2019-06-27T06:54:33-05:00",
+    "2019-06-27T08:04:06-05:00",
   "dateModified":
-    "2019-06-27T06:54:33-05:00",
+    "2019-06-27T08:04:06-05:00",
   "description":
     "Create your Jupyter Book",
   "author": {
@@ -43,14 +43,14 @@
     "name": "Data 100 at UC Berkeley",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://0.0.0.0:4000/jupyter-book",
+      "url": "http://0.0.0.0:8002/jupyter-book",
       "width": 60,
       "height": 60
     }
   },
   "image": {
     "@type": "ImageObject",
-    "url": "http://0.0.0.0:4000/jupyter-book",
+    "url": "http://0.0.0.0:8002/jupyter-book",
     "height": 60,
     "width": 60
   }
@@ -515,7 +515,7 @@ function addParamToInternalLinks(hub) {
   var links = document.querySelectorAll("a").forEach(function(link) {
     var href = link.href;
     // If the link is an internal link...
-    if (href.search("http://0.0.0.0:4000") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
+    if (href.search("http://0.0.0.0:8002") !== -1 || href.startsWith('/') || href.search("127.0.0.1:") !== -1) {
       // Assume we're an internal link, add the hub param to it
       var params = getJsonFromUrl(href);
       if (params !== false) {
@@ -694,7 +694,7 @@ initFunction(initQuery);
 
 
 <nav id="js-sidebar" class="c-textbook__sidebar">
-  <a href="/intro.html"><img src="/jupyter-book/images/logo/cvah_logo.png" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
+  <a href="/intro.html"><img src="/jupyter-book/images/logo/cvah_logo.jpg" class="textbook_logo" id="sidebar-logo" data-turbolinks-permanent/></a>
   <h2 class="c-sidebar__title">Jupyter Book</h2>
   <ul class="c-sidebar__chapters">
     
@@ -757,7 +757,7 @@ initFunction(initQuery);
           href="/jupyter-book/00/howto.html"
         >
           
-          Features and customization
+          How-to guide
         </a>
 
         
