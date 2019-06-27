@@ -18,16 +18,32 @@ Some inline code will be non-interactive, as follows:
 
 And some will be interactive, like **[Chapter One](01/hog-test)**. 
 
-## Getting started
+## Overall Plan
 
-To get started, you may be interested in the following links.
-Here are a few links of interest:
+Here's a quick overview of the planned contents:
 
-* **[Jupyter Book features](features/features)** is a quick demo and overview
-  of Jupyter Books.
-
-* **[The Jupyter Book Guide](guide/01_overview)**
-  will step you through the process of configuring and building your own Jupyter Book.
+1. Introduction to Digital Images
+   1. Pixels, Images as Arrays, Rotations, Gamma Corrections, Colour Conversion
+   2. Digital Images in Cultural Heritage: metadata, IIIF, Colourbars, Multispectral, PHAROS
+2. Image Matching
+   1. Features: HOG, SIFT
+   2. What is image similarity anyway?
+   3. Building a search engine. Example: VISE
+   4. Matching automatically. Example: Nova Plantarum
+3. Detecting things
+   1. What is a classifier? 
+      1. Generating metadata
+      2. Detections (as classifications)
+      3. Clever/live searches: retraining SVM live
+   2. Face detection
+      1. Le Brun
+   3. Pose detection
+      1. Warburg work
+4. Advanced topics, Neural Networks
+   1. Neural networks etc
+   2. Image to image translation: recolouring, inpainting
+   3. Pixelwise segmentation maps
+   4. GANs
 
 ### Installation
 

@@ -23,106 +23,73 @@
 - title: Search
   search: true
 
-- title: Getting started
-  url: /guide/01_overview
+- title: About the Author
+  url: /00/author
   not_numbered: true
-  expand_sections: true
-  sections:
-  - title: Create your book
-    url: /guide/02_create
-  - title: Build and publish your book
-    url: /guide/03_build
-  - title: FAQ
-    url: /guide/04_faq
-  - title: How-to and advanced topics
-    url: /guide/05_advanced
 
 - title: Features and customization
-  url: /features/features
+  url: /00/howto
   not_numbered: true
-  expand_sections: true
-  sections:
-  - title: Markdown files
-    url: /features/markdown
-    not_numbered: true
-  - title: Jupyter notebooks
-    url: /features/notebooks
-    not_numbered: true
-  - title: Hiding code blocks or entire cells
-    url: /features/hiding
-    not_numbered: true
-  - title: Connecting content with JupyterHub and Binder
-    url: /features/interact
-    not_numbered: true
-  - title: Adding interactivity to your book pages
-    url: /features/interactive_cells
-    not_numbered: true
-  - title: Citations and bibliographies
-    url: /features/citations
-    not_numbered: true
-  - title: Searching your book
-    url: /features/search
-    not_numbered: true
-  - title: Feature Limits
-    url: /features/limits
-    not_numbered: true
 
 
 - title: GitHub repository
-  url: https://github.com/jupyter/jupyter-book
+  url: https://github.com/leoimpett/DigitalArtHistory
   external: true
   not_numbered: true
 
 - divider: true
-- header: Demo textbook
+- header: Computer Vision in Art History
 
-- title: Data Science
-  url: /01/hog-test
-  # sections:
-  # - title: Introduction
-  #   url: /01/1/intro
-  # - title: Why Data Science?
-  #   url: /01/2/why-data-science
-  # - title: Plotting the Classics
-  #   url: /01/3/Plotting_the_Classics
-  #   subsections:
-  #   - title: Subsection Demo 1
-  #     url: /01/3/subsection/subsections
-  #   - title: Subsection Demo 2
-  #     url: /01/3/subsection/subsectiontwo
 
-- title: Causality and Experiments
-  url: /02/causality-and-experiments
+- title: Introduction
+  url: /00/introduction
+
+- title: Digital Images
+  url: /01/digital_images
   sections:
-  - title: John Snow and the Broad Street Pump
-    url: /02/1/observation-and-visualization-john-snow-and-the-broad-street-pump
-  - title: "Snow\u2019s \u201CGrand Experiment\u201D"
-    url: /02/2/snow-s-grand-experiment
-  - title: Establishing Causality
-    url: /02/3/establishing-causality
-  - title: Randomization
-    url: /02/4/randomization
-  - title: Endnote
-    url: /02/5/endnote
+  - title: Pixels and Arrays
+    url: /01/pixels_and_arrays
+  - title: Digital Images in Cultural Heritage
+    url: /01/digital_images_ch
 
-- title: Programming in Python
-  url: /03/programming-in-python
+- title: Image Matching
+  url: /02/image_matching
   sections:
-  - title: Expressions
-    url: /03/1/Expressions
-  - title: Names
-    url: /03/2/Names
-  - title: Call Expressions
-    url: /03/3/Calls
-  - title: Introduction to Tables
-    url: /03/4/Introduction_to_Tables
+  - title: What is image similarity anyway?
+    url: /02/image_similarity
+  - title: Feature matching, HOG, SIFT
+    url: /02/features
+  - title: Building a visual search engine
+    url: /02/search_engine
+  - title: Automatic matching
+    url: /02/auto_matching
 
-- title: Data Types
-  url: /04/Types
+- title: Detecting and Classifying 
+  url: /03/detecting
   sections:
-  - title: Numbers
-    url: /04/1/Numbers
-  - title: Strings
-    url: /04/2/Strings
-  - title: Comparisons
-    url: /04/3/Comparison
+  - title: What is a classifier?
+    url: /03/classifier 
+  - title: Automatically generating metadata
+    url: /03/metadata 
+  - title: Detections as Classifications
+    url: /03/detector
+  - title: Online learning, live searches
+    url: /03/online
+  - title: Detecting human figures
+    url: /03/humans
+
+- title: Advanced topics
+  url: /04/advanced
+  sections:
+  - title: Neural Networks
+    url: /04/nns
+  - title: Image to Image Networks
+    url: /04/im2im
+  - title: Pixelwise Segmentation maps
+    url: /04/pix_segment
+  - title: Generative Adversarial Networks
+    url: /04/gans
+
+
+
+
