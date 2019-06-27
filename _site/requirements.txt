@@ -7,7 +7,7 @@ numpy
 matplotlib
 #nbinteract
 #scipy
-#jupyter-book
+jupyter-book
 #From here are Leo's additions
 #sklearn
 scikit-image
