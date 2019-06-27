@@ -38,6 +38,7 @@ from skimage import transform, io
 from matplotlib import pyplot as plt
 # This is just a macro to plot inside the browser, not in a new window:
 %matplotlib inline
+print('Libraries are loaded')
 
 ```
 </div>
