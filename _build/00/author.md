@@ -5,7 +5,7 @@ prev_page:
   title: 'Home'
 next_page:
   url: /00/howto
-  title: 'Features and customization'
+  title: 'How-to guide'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 ## About the Author
