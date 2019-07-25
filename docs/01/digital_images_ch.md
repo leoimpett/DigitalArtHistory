@@ -1,18 +1,3 @@
----
-redirect_from:
-  - "/01/digital-images-ch"
-interact_link: content/01/digital_images_ch.ipynb
-kernel_name: python3
-has_widgets: false
-title: 'Digital Images in Cultural Heritage'
-prev_page:
-  url: /01/pixels_and_arrays
-  title: 'Pixels and Arrays'
-next_page:
-  url: /02/image_matching
-  title: 'Image Matching'
-comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
----
 
 
 # A Title
@@ -131,7 +116,7 @@ plt.imshow(testim)
 <div class="output_subarea" markdown="1">
 
 {:.output_png}
-![png](../images/01/digital_images_ch_7_1.png)
+![png](/home/leonardo/Documents/Teaching/DigitalArtHistory/_build/images/01/digital_images_ch_7_1.png)
 
 </div>
 </div>
