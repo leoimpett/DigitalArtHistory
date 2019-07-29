@@ -11,15 +11,15 @@ Some inline code will be non-interactive, as follows:
 
 `print('Hello, World!')` 
 
-And some will be interactive, like **[Chapter One](01/hog-test)**. 
+And some will be interactive, like **[Chapter One](content/01/pixels_and_arrays)**. 
 
 ## Overall Plan
 
 Here's a quick overview of the planned contents:
 
 1. Introduction to Digital Images
-   1. Pixels, Images as Arrays, Rotations, Gamma Corrections, Colour Conversion
-   2. Digital Images in Cultural Heritage: metadata, IIIF, Colourbars, Multispectral, PHAROS
+   1. [Pixels, Images as Arrays, Rotations, Gamma Corrections, Colour Conversion](content/01/pixels_and_arrays)
+   2. [Digital Images in Cultural Heritage: metadata, IIIF, Colourbars, Multispectral, PHAROS](content/01/digital_images_ch)
 2. Image Matching
    1. Features: HOG, SIFT
    2. What is image similarity anyway?
