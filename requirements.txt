@@ -1,15 +1,10 @@
 # Requirements for the demo notebooks
 # Useful for MyBinder configuration
-#pandas
+pandas
 numpy
-#datascience
-#folium
+datascience
+folium
 matplotlib
-#nbinteract
-#scipy
+nbinteract
+scipy
 jupyter-book
-#From here are Leo's additions
-#sklearn
-scikit-image
-#skimage
-#tqdm
