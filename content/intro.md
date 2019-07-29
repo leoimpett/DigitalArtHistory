@@ -33,7 +33,7 @@ Here's a quick overview of the planned contents:
    2. Face detection
       1. Le Brun
    3. Pose detection
-      1. Warburg work
+  1. Warburg work
 4. Advanced topics, Neural Networks
    1. Neural networks etc
    2. Image to image translation: recolouring, inpainting
